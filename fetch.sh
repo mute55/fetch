@@ -32,11 +32,8 @@ info="${removeattr}${bold}${white}"
 
 cat <<EOF
 
-  ${labels}HOSTNAME  ${info}${hostname}${removeattr}
   ${labels}KERNEL    ${info}${kernel}${removeattr}
   ${labels}UPTIME    ${info}${uptime}${removeattr}
-  ${labels}SHELL     ${info}${shell}${removeattr}
-  ${labels}WM        ${info}${WM}${removeattr}
 
   ${rev}${black}  ${red}  ${green}  ${yellow}  ${blue}  ${magenta}  ${cyan}  ${white}  ${removeattr}
 
